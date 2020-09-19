@@ -1,6 +1,5 @@
 package HRC;
 
-import java.io.*;
 import java.util.*;
 
 class Node {
@@ -15,7 +14,6 @@ class Node {
 class day15 {
 
     public static  Node insert(Node head,int data) {
-        //Complete this method
           Node current=head;
        Node temp=null;
         if(current==null)
